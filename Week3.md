@@ -49,5 +49,7 @@ awk creates condition-action pairs.
 > if (record matches condition) 
 > {then action}
 
-` ls -la > temp.txt 
+`ls -la > temp.txt 
+
 awk '/root/ {print $1,$9}' temp.txt`
+
