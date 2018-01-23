@@ -49,7 +49,18 @@ awk creates condition-action pairs.
 > if (record matches condition) 
 > {then action}
 
-`ls -la > temp.txt` `awk '/root/ {print $1,$9}' temp.txt`
+`ls -la > temp.txt`
 
+`awk '/root/ {print $1,$9}' temp.txt`
+
+Can do very complicated things.
+
+Files over certain size, ect ect. 
+
+Using `ls -la` record 5 would indicate file size, and can be sorted in awk.
+
+## Common commands
+
+`sleep 2s` - sleeps for 2 seconds.
 
 
