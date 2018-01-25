@@ -1,5 +1,31 @@
 # Week 2 notes here
 
+## Tuesday
+
+### Linux
+
+Embeded systems control. Adpatable.
+
+Programs are files containing instructions.
+
+Processes are run by the OS. 
+
+Book : Linux in a nutshell on isu library.
+
+`ps aux` : List running programs.
+
+`grep` : Search.
+
+`kill` : kill command.
+
+`man` : Manual pages.
+
+Daemons are backround processes. 
+
+Using Bach shell.
+
+Hardware > Kernal > Shell > Applications.
+
 ## Thursday
 
 ### Eviromental variables

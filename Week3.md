@@ -47,6 +47,7 @@ By default: a line is a record.
 awk creates condition-action pairs.
 
 > if (record matches condition) 
+>
 > {then action}
 
 `ls -la > temp.txt`
