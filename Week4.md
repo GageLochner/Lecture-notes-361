@@ -42,3 +42,29 @@ Floating point is the real numbers for C.
 
 Make sure floating points don't get rounded inproperly. 
 
+## Different kind of class
+
+Order of numbers matters. Check for zero first. 
+Time matters when dealing with big data. 
+
+Clarify requirments and data formats. 
+
+Scan and insert is the fastest way to organize data by a single data point.
+
+Should be able to recognize the equivelent difficulty between problems. 
+
+## Insertion sort example
+
+1. Load data and number of data points to sort
+2. Set up for loop
+3. Set up nexted while loop to move data ahead if data points are not in right order
+
+For loop would run through the whole array once. 
+
+`O(n)` is worst case inversion. Insert sort is O(n^2).  
+
+`const` declares constant value.
+
+Initialize everything that is used in the script. 
+
+Do not copy paste code. If it's used more than once, make it a function. 
