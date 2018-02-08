@@ -33,7 +33,7 @@ NP-hard: at least as hard as the hardest problem in NP.
 
 For every problem, you can convert it into another problem that already has a solution.
 
-## Demo
+## Array demo
 
 Matrix in C is just an array of arrays. 
 
@@ -42,5 +42,23 @@ Remember that matrix starts at (0,0).
 `sizeof` returns size of values of memory used. 
 
 > C is powerful enough to not complain while you shoot yourself in the foot. 
+
+## Input sanitation and validation demo
+
+Put notes, name, date, in comments just under script name.
+
+List inputs and outputs.
+
+C pre processor goes though code once, and replaces parts with things you define. 
+
+Can use `#ifdefine` and `#ifndefine`.
+
+Use `printusage` to list inputs, outputs, and objective of function code. Make it descriptive.
+
+`return 0;` just before end main.
+
+Code usually gets run by other code.
+
+*Had to leave class due to 361 lab*
 
 
