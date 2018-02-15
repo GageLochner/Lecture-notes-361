@@ -63,3 +63,28 @@ Use \t for alignment in printf
 
 `*b+1` will find what is stored next to b. `If var *b = H, *b+1 = I *b+2 = J, ect ect`
 
+## bc
+
+Infinite precission calculator. Useful for lab 6.
+
+## strings
+
+Printf will print a string until it sees `\0`.
+
+## Prototyping
+
+Do not prototype in matlab. Read chaper 10 of book for more info.
+
+## PBJ demo
+
+Write algorithum in sudo code before declarations, variables, ect. 
+
+Then write the code as one piece. 
+
+Revising variables again and again. Try to think of everything.
+
+Set up code before you do any coding. 
+
+> Is the knife removed from the bread
+
+
