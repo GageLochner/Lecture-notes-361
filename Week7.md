@@ -55,6 +55,7 @@ Write code on board in class. Attempt to solve it ourselfs first.
 Write code to manage farm. Has a river through the middle of the farm. 4 members of farm; the farmer, a wolf, a goat, and a cabbage.
 
 Rules that opperate farm:
+
 	All currently located at start of program, passed through argv into main.
 	Assumed to start on left bank of river. Must all cross river. 
 	The catch: One rowboat. Boat only has two seats. Only farmer may opperate boat. 
@@ -62,13 +63,28 @@ Rules that opperate farm:
 
 #include <stdio.h>
 
-Rivercross funct
-	Farmer == boat
+Rivercross funct (*Farmer, *other)
+	Farmer == boat and Other == Farmer
 	else fail
 if farmer = boat = 0
 	farmer = boat = 1
 else if farmer = boat = 1
 	farmer = boat = 0	
+if other = 0
+	other = 1
+else if other = 1
+	other = 0
+return;
+
+DeathCheck funct
+
+if goat == cabbage
+	and farmer =! goat =! cabbage
+	death 
+if goat == wolf
+	and farmer =! goat =! wolf
+	death
+return;
 
 int main ( argv argc )
 
@@ -102,9 +118,39 @@ boatl = &Boat;
 // Left side of bank is value 0
 // Right side of bank is value 1
 
-goat =! cabbage unless farmer = goat = cabbage
+Rivercross &goat
+Deathcheck
+Rivercross &null
+Deathcheck
+Rivercross &wolf
+Deathcheck
+Rivercross &goat
+Deathcheck
+Rivercross &cabbage
+Deathcheck
+Rivercross &null
+Deathcheck
+Rivercross &goat
+Deathcheck
 
-wolf =! goat unless farmer = goat = wolf
+// end program
 
+All = 1;
+
+## Thursday
+
+## Notes on rivercrossing problem.
+
+There is an argc for function calls.
+
+& on function call paramteres. 
+
+* within fuction parameters. Then can directly manipulate values.
+
+Pass a int with the function, to represent the number of objects that are moving. 
+
+CHECK UNITS WITHIN FUNCTIONS AND THE LIKE
+
+ALWAYS ERROR CHECK
 
 
