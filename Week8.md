@@ -56,4 +56,32 @@ Anything after the colon is a dependancy.
 
 `-c` compile into object files. 
 
+# Thursday
 
+Remember the compiler process. 
+
+>SPACES V TAB IN MAKE FILES
+
+Just type make.
+
+make is case sensitive.
+
+## Binary (calculation v computation)
+
+Math in binary works very differenty from decimal math. 
+
+1 byte = 8 bits
+
+## Binary demo
+
+Be careful of positive negative bit flips.
+
+32767 is max value of a signed short before it flips.
+
+Fractions in binary are silly. Just use a decimal point, and find the approxamtion just like normal binary. 
+
+Some things are not reporesentable accuractly beyound a certain point. 
+
+Floats are stored differently. Decimal places move around. 
+
+Addition is associative in binary. Sometimes. More likely with smaller numbers. It matters how you store numbers and how you access them. 
