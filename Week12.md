@@ -61,4 +61,32 @@ Store non zero sub matrices "blocks" in CSR format. Then sub matrcies "blocks" o
 
 Zero values are stored to keep block sizes equal. Not a size optimization, but a time optimization.
 
+## Thursday
 
+BSR is interesting in how it works.
+
+Going to need to refer to an external resoure for this one.
+
+There is always a better way to store matrixes if you can find a pattern. There will always be a algorythm for any pattern.
+
+## Special matrix
+
+Triangular: values above or below center diagonal
+
+Banded: values along center diagonal
+
+### DIA storage method ( diagonal matrices )
+
+Create a new transformed matrix. each diagonal gets stored as a new row in a new matrix. Diagonal at (0,0) is diagonal_id 0, with 1,-1 on each side. 
+
+### Ellpack - Itpack ( ELL )
+
+Remove zeros from array with least number of zeros. 
+
+Move everything to the left, removing zeros, except to pad for space. Then column index. ( -1 if value is zero ).
+
+Not as space efficient, but no offset math.
+
+## How do we code these things?
+
+Next week... 
