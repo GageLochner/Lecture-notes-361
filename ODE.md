@@ -23,11 +23,11 @@ Explicit method. Uses slope at x0 to predict value of y1 at x1.
 Generates error if exact solution is not linear. 
 
 Two types of error: (Truncation error caused by the tecnique) or (roundoff error caused by limited number of sig figs)
-
+[B
 Local truncatin error is applying a method over a single step.
-
+OB
 Propagated truncation error is due to the appoximation produced on prior step.
-
+OB
 Global reuncation error for Eulers method is O(h). Ergo, first order method. 
 
 ##### Second order Runge-Kutta method
@@ -73,3 +73,9 @@ if Y is the less accurate scheme, and y is the more accurate scheme, and delta =
 6 different slopes to use. Look up formula on google. 
 
 In matlab, ode45() is the comperable function. 
+
+# Solver
+
+Input range of x, initial value of y, step size and epsilon.
+
+See Lab 14 demo .c
